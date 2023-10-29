@@ -18,7 +18,7 @@ body {
 }
 .main-content {
     flex: 1;
-    padding: 20px;
+    padding: 50px;
 }
 .shop-box{
     margin: 50px;
@@ -54,13 +54,13 @@ body {
     color: #ff4500; /* Change the color on hover */
 }
 
-
 footer {
+    display: block;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 100px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
-    width: 30px;
+    width: 100%;
 }
