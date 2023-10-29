@@ -25,21 +25,21 @@ body {
     margin-bottom: 20px;
 }
 
-.item-box img {
+.item-box figcaption img {
     max-width: 100%;
     margin-right: 0px; /* Adjust the margin as needed */
 }
-.item-box h3{
+.item-box figcaption h3{
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
-.item-box h3,
-.item-box p {
+.item-box figcaption h3,
+.item-box figcaption p {
 
     outline: invert;
     width: 1240px;
     background-color: #DAF2D8; /* Background color for names and descriptions */
-    padding: 20px;
+    padding: 10px;
     margin: 0; /* Adjust the padding as needed */
 }
 
