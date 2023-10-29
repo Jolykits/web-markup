@@ -44,15 +44,16 @@ body {
 }
 
 .sidebar {
-    width: 20%; 
+    height: 95%;
     position: fixed;
     top: 0;
     right: 0;
-    width: 200px;
+    width: 150px;
     background-color: #f4f4f4;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
 }
+
 
 /* Style the links in the sidebar */
 .sidebar ul {
