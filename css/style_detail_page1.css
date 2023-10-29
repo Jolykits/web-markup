@@ -20,11 +20,31 @@ body {
     flex: 1;
     padding: 50px;
 }
-.shop-box{
-    margin: 50px;
+.item-box {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-box img {
+    max-width: 100%;
+    margin-right: 0px; /* Adjust the margin as needed */
+}
+.item-box h3{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.item-box h3,
+.item-box p {
+
+    outline: invert;
+    width: 1240px;
+    background-color: #DAF2D8; /* Background color for names and descriptions */
+    padding: 20px;
+    margin: 0; /* Adjust the padding as needed */
 }
 
 .sidebar {
+    width: 20%; 
     position: fixed;
     top: 0;
     right: 0;
@@ -51,15 +71,16 @@ body {
 }
 
 .sidebar a:hover {
-    color: #ff4500; /* Change the color on hover */
+    color: blue; /* Change the color on hover */
 }
 
 footer {
+    font-size: small;
     display: block;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 0;
     position: fixed;
     bottom: 0;
     width: 100%;
